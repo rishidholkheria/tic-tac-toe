@@ -1,0 +1,51 @@
+.game {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game h1 {
+  padding: 25px;
+  font-size: 40px;
+}
+
+.game p {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.board {
+  width: 20%;
+  height: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 40px;
+}
+
+.boardCell {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  height: 100px;
+}
+
+.reset {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(215, 213, 213);
+  color: #121111;
+  margin-top: 20px;
+}
+
+.winMessage{
+    color: red;
+    font-size: 15px;
+}
